@@ -15,11 +15,11 @@ import { View,
 import * as firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "   ",
-  authDomain: "   ",
-  databaseURL: "   ",
-  projectId: "  ",
-  storageBucket: "   ",
+  apiKey: "<YOUR-API-KEY>",
+  authDomain: "<YOUR-AUTH-DOMAIN>",
+  databaseURL: "<YOUR-DATABASE-URI>",
+  projectId: "<YOUR-PROJECT-ID>",
+  storageBucket: "YOUR-STORAGE-BUCKET",
 };
 
 firebase.initializeApp(firebaseConfig);
